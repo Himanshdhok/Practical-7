@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(45deg,#7733c5,#1dac71,#61aa1c);
+    background-size: 100% 100%;
+    height: 50vh;
+   
+}
+
+
+.loginform{
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 100px auto ;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #2a1a1a;
+}
+.loginform h1{
+    background:linear-gradient(45deg,#11193d,#858e73,#2000af);
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.loginform input[type='text'],input[type='password']{
+    width: 90%;
+    font-size: 18px;
+    padding: 3px;
+    margin-bottom: 10px;
+    border:0;
+    border-bottom: 2px solid #ccc;
+
+}
+.loginform button[type='submit']{
+    height: 50px;
+    width: 120px;
+    background-color: #cccccc;
+    border: 3px solid #083812;
+    border-radius: 100px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.loginform button[type='submit']:hover{
+    background: #c5336b;
+    color: #fff;
+}
+fieldset{
+    margin-left: 32%;
+    margin-right: 50%;
+}
